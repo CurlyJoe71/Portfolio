@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>About | Jaime Miguel Gonzalez</title>
+  <title>Contact | Jaime Miguel Gonzalez</title>
   <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 
@@ -23,11 +23,25 @@
 
   <div id="main-container" class="container">
     <section class="main-section">
-      <h1>About Me</h1>
+      <h1>Contact</h1>
 
-      <img src="assets/images/jmgprofilepic.jpg" class="auth-image" alt="My photo">
-
-      <p>Hello and welcome to my page. My name is Jaime Gonzalez. I am currenty studying to become a full stack web developer.<br><br> My plan is to become a web developer for a good company that make a positive impact on the world we live in. I'm excited about finding a new career path. I have only worked as a church musician, which is something I greatly enjoy. However, I want to find a job that will help me and my husband acheive the things we want in life.<br>I am going to work hard and keep an open mind.</p>
+      <form id="contact-form">
+        <ul>
+          <li>
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="John Smith" required="required">
+          </li>
+          <li>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="example@gmail.com" required="required">
+          </li>
+          <li>
+            <label for="message">Message</label>
+            <textarea id="message" name="message" required="required"></textarea>
+          </li>
+        </ul>
+        <input type="submit">
+      </form>
 
     </section>
 
