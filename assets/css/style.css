@@ -13,10 +13,12 @@ body {
 /* general */
 
 .container {
-  width: 100%;
-  max-width: 960px;
+  display: flex;
   margin: 0 auto;
   clear: both;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  border: 3px solid mistyrose;
 }
 
 h1,
@@ -64,7 +66,6 @@ h3 {
 }
   
 #logo {
-  float: left;
   width: 250px;
   height: 90px;
   font-family: Georgia, Times, "Times New Roman", serif;
@@ -75,21 +76,24 @@ h3 {
   text-align: center;
   text-decoration: none;
   background: #4aaaa5;
-}
   
+  /* flex: 1 1 250px; */
+}
+
 nav {
-  float: right;
   margin-top: 25px;
+  display: flex;
 }
 
 nav a {
-  display: inline-block;
   padding-left: 15px;
   margin-left: 15px;
   line-height: 18px;
   color: #999;
   text-decoration: none;
   border-left: 1px solid #efefef;
+  flex:2;
+  justify-self: center;
 }
 
 nav a:first-child {
