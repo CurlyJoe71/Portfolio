@@ -31,11 +31,6 @@ body {
   justify-content: center;
 }
 
-/* #main>article>div {
-  margin: auto;
-  align-content: center;
-} */
-
 #about-content-name {
   font-family: 'Syncopate', sans-serif;
   text-align: center;
@@ -80,7 +75,7 @@ aside img {
 
 #logo {
   color: white;
-  background: navy;
+  background: rgb(17, 108, 160);
   align-self: flex-end;
   justify-self: center;
   font-family: 'Syncopate', sans-serif;
@@ -105,8 +100,6 @@ aside img {
   font-family: 'Raleway', sans-serif;
   font-weight: 300;
   font-size: 1.8rem;
-  /* max-width: 180px; */
-  color: rgb(34, 37, 218);
   flex: 3;
   align-self: center;
 }
@@ -115,15 +108,17 @@ aside img {
   text-decoration: none;
   transition: 0.5s;
   padding: 2px;
+  color: rgb(5, 128, 26);
+
 }
 
 #main-nav-list .social {
   flex: 1;
 }
 
-.main-nav a:hover, .main-nav a:focus {
-  color: rgb(250, 248, 244);
-  background: grey;
+#main-nav-list a:hover, #main-nav-list a:focus {
+  color: rgb(241, 250, 116);
+  background: rgba(153, 93, 61, 0.719);
   border-radius: 5px;
 }
 
