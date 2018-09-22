@@ -18,7 +18,7 @@ body {
 #main {
   display: flex;
   flex-wrap: wrap;
-  order: 1;
+  order: 2;
   height: 100vh;
 }
 
@@ -132,7 +132,7 @@ aside img {
 }
 
 .profilepic {
-  height: 200px;
+  max-height: 30vh;
   width: auto;
 }
 
@@ -141,8 +141,8 @@ footer {
   width: 100vw;
   height: 3vh;
   text-align: center;
-  align-self: flex-start;
-  order: 4;
+  /* align-self: flex-start; */
+  order: 10;
 }
 
 @media all and (max-width: 1000px) {
