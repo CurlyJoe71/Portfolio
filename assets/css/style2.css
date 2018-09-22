@@ -113,6 +113,8 @@ aside img {
 
 #main-nav-list a {
   text-decoration: none;
+  transition: 0.5s;
+  padding: 2px;
 }
 
 #main-nav-list .social {
@@ -120,7 +122,7 @@ aside img {
 }
 
 .main-nav a:hover, .main-nav a:focus {
-  color: rgb(44, 33, 12);
+  color: rgb(250, 248, 244);
   background: grey;
   border-radius: 5px;
 }
