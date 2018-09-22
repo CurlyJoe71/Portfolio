@@ -131,6 +131,11 @@ aside img {
   color: rgb(240, 160, 11) !important;
 }
 
+.profilepic {
+  height: 200px;
+  width: auto;
+}
+
 footer {
   background: rgb(211, 207, 174);
   width: 100vw;
