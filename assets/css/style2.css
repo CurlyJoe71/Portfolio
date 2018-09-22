@@ -63,8 +63,9 @@ body {
 aside img {
   flex-direction: row;
   max-height: 80vh;
-  width: auto;
+  /* width: auto; */
   align-self: center;
+  max-width: calc(100vw - 20px);
 }
 
 #main-nav {
@@ -75,7 +76,7 @@ aside img {
 
 #logo {
   color: white;
-  background: rgb(17, 108, 160);
+  background: rgb(59, 50, 109);
   align-self: flex-end;
   justify-self: center;
   font-family: 'Syncopate', sans-serif;
@@ -117,7 +118,7 @@ aside img {
 }
 
 #main-nav-list a:hover, #main-nav-list a:focus {
-  color: rgb(241, 250, 116);
+  color: rgb(125, 210, 236);
   background: rgba(153, 93, 61, 0.719);
   border-radius: 5px;
 }
