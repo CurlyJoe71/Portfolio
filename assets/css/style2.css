@@ -157,7 +157,7 @@ footer {
     flex: 1 1 50%;
   }
   #main-nav-list .social {
-    flex: 1 1 25%;
+    flex: 1 1 20%;
   }
 }
 
@@ -171,8 +171,5 @@ footer {
   }
   #main-nav-list li {
     flex-basis: 100%;
-  }
-  #main-nav-list .social {
-    flex: 1 1 25%;
   }
 }
