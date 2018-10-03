@@ -81,7 +81,7 @@ aside img {
 
 #logo {
   color: white;
-  background: rgb(116, 33, 133);
+  background: rgb(85, 86, 150);
   align-self: flex-end;
   justify-self: center;
   font-family: 'Syncopate', sans-serif;
@@ -114,7 +114,7 @@ aside img {
   text-decoration: none;
   transition: 0.5s;
   padding: 2px;
-  color: rgb(5, 128, 26);
+  color: rgb(231, 202, 71);
 }
 
 a:link {
@@ -132,7 +132,7 @@ a:link {
 }
 
 .current {
-  color: rgb(240, 160, 11) !important;
+  color: rgb(55, 158, 45) !important;
 }
 
 .profilepic {
@@ -176,7 +176,6 @@ footer {
 .container {
   padding: 2px 16px;
   position: relative;
-  /* width: 25%; */
 }
 
 .container>img {
@@ -225,6 +224,30 @@ footer {
 
 .container:hover .overlay {
   height: 80%;
+}
+
+/*CSS for contact page*/
+input, textarea {
+  outline: none;
+  border: none;
+}
+form {
+  display: flex;
+  flex-direction: column;
+}
+.form-wrapper {
+  padding-bottom: 10px;
+  border-bottom: 2px solid grey;
+  width: 30vw;
+  text-align: left;
+  margin-bottom: 25px;
+}
+.form-wrapper>span {
+text-align: left;
+width: 30vw;
+}
+.inputName, .inputEmail, .inputMessage {
+  width: 30vw;
 }
 
 @media all and (max-width: 1000px) {
