@@ -81,13 +81,16 @@ aside img {
 
 #logo {
   color: white;
-  background: rgb(85, 86, 150);
+  background: rgb(237, 110, 37);
   align-self: flex-end;
   justify-self: center;
   font-family: 'Syncopate', sans-serif;
   font-weight: bold;
   font-size: 3em;
   order: 1;
+  padding-left: 3px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 #main-nav-list {
@@ -114,7 +117,7 @@ aside img {
   text-decoration: none;
   transition: 0.5s;
   padding: 2px;
-  color: rgb(231, 202, 71);
+  color: rgb(237, 110, 37);
 }
 
 a:link {
@@ -126,8 +129,8 @@ a:link {
 }
 
 #main-nav-list a:hover, #main-nav-list a:focus {
-  color: rgb(125, 210, 236);
-  background: rgba(153, 93, 61, 0.719);
+  color: rgb(245, 222, 179);
+  background: rgba(0, 206, 209);
   border-radius: 5px;
 }
 
