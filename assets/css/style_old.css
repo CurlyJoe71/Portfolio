@@ -263,11 +263,11 @@ input[type=submit] {
   nav {
     float: none;
   }
-  #main-container {
+  /* #main-container { */
     /* not sure how to eliminate the extra space about this div */
     
     /* float: left; */
-  }
+  /* } */
   .container {
     width: 600px;
     
@@ -302,6 +302,6 @@ input[type=submit] {
 
   img {
     width: 10%;
-    height: auto:
+    height: auto;
   }
 }
