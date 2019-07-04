@@ -327,6 +327,25 @@ footer {
   text-align: center;
 }
 
+.overlay-actor {
+  position: absolute;
+  border-radius: 5px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(208, 140, 76, 0.89);
+  overflow: hidden;
+  height: 25px;
+  transition: 0.8s ease;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+  color: white;
+  font-size: 1.1rem;
+  margin: auto;
+  align-content: center;
+  text-align: center;
+}
+
 #portfolio a {
   text-decoration: none;
   transition: 0.5s;
@@ -340,7 +359,7 @@ footer {
   border-radius: 5px;
 }
 
-.container:hover .overlay {
+.container:hover .overlay, .container:hover .overlay-actor {
   height: 80%;
 }
 
